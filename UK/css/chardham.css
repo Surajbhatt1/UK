@@ -1,0 +1,180 @@
+.chardham-marquee {
+    width: 100%;
+    position: relative;
+    /* background: #29617a; */
+    /*background: rgb(0 0 0 / 54%);*/
+    background: #003a6f;
+    height: 40px;
+    overflow: hidden;
+    /*font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;*/
+  }
+  
+  .chardham-marquee-container {
+    /* width: 200%; */
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    animation-name: example;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  .chardham-marquee-items {
+    display: flex;
+    padding: 10px 20px;
+    position: relative;
+  }
+    /*.chardham-marquee-items:first-of-type {
+    border-right: 2px solid #fff;
+  }*/
+  
+  .chardham-marquee-items.dot:not(:last-of-type):after {
+    content: ".";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 7px;
+    height: 7px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .chardham-marquee-title {
+    /*font-weight: 400;*/
+    color: #ffffff;
+    /*text-transform: uppercase;*/
+  }
+  .chardham-marquee-title a {
+    color: rgb(255, 255, 255);
+    /* text-shadow: 0 0 5px #00f, 0 0 10px #0ff, 0 0 20px #00f, 0 0 40px #0ff; */
+    text-transform: uppercase;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0px 40px;
+  }
+  
+  blink,
+  .blink {
+    -webkit-animation: blink 1s linear infinite;
+    -moz-animation: blink 1s linear infinite;
+    -o-animation: blink 1s linear infinite;
+    animation: blink 1s linear infinite;
+  }
+  
+  @-webkit-keyframes blink {
+    67% {
+      opacity: 0;
+    }
+  }
+  
+  @-moz-keyframes blink {
+    67% {
+      opacity: 0;
+    }
+  }
+  
+  @-o-keyframes blink {
+    67% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes blink {
+    67% {
+      opacity: 0;
+    }
+  }
+.title{
+text-align: center;
+}
+
+.dham{
+   
+    padding-top: 0.1cm;
+        
+}
+/*image flip start*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    float: left;
+    padding: 2%;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back {
+    background-color: #555;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  /*image flip end*/
+
+  /*Corbart national park code*/
+  
+.section-title p {
+  line-height: 27px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+marquee p{
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: blue;
+
+}
+.img{
+  padding-bottom: 4%;
+  text-align: center;
+}
+.logo{
+  padding-right: 4%;
+}
+.cult{
+  padding: 6%;
+}
+#attachment_2479 p{
+align-items: center;
+font-family:'Times New Roman', Times, serif;
+color: #003a6f;
+}
